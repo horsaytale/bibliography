@@ -6,7 +6,7 @@ const skills = [
   },
   {
     skill: "JavaScript",
-    level: "advanced",
+    level: "intermediate",
     color: "#EFD81D",
   },
   {
@@ -21,13 +21,8 @@ const skills = [
   },
   {
     skill: "React",
-    level: "advanced",
-    color: "#60DAFB",
-  },
-  {
-    skill: "Svelte",
     level: "beginner",
-    color: "#FF3B00",
+    color: "#60DAFB",
   },
 ];
 
@@ -51,10 +46,10 @@ function Intro() {
   return (
     <div>
       <h1>Amber Lim</h1>
+      <p>Web developer.</p>
       <p>
-        Full-stack web developer and teacher at Udemy. When not coding or
-        preparing a course, I like to play board games, to cook (and eat), or to
-        just enjoy the Portuguese sun at the beach.
+        When not coding, I enjoy listening to songs, play some cool RPG games
+        and read some spooky horror story books.
       </p>
     </div>
   );
